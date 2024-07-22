@@ -1,0 +1,19 @@
+
+@layer tailwind-base, primereact, tailwind-utilities;
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+ul {
+  list-style-type: disc;
+  padding: 0;
+}
+ol {
+  list-style-type: decimal;
+  padding: 0;
+}
